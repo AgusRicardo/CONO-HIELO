@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e9c377;
+    font-family: Open Sans,Arial,sans-serif;
+}
+.bloque-general {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/pamleras2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-bottom: 2px solid yellow;
+}
+.img-portada img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid yellow;
+}
+.datos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 30px;
+    margin-left: 30px;
+}
+.video {
+    color: black;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+a img{
+    padding: 12px;
+}
+a img:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.lisa {
+    text-align: end;
+    margin-right: 150px;
+}
+
+/* Letra, tamaños y tipografias */
+.letra {
+    margin: 0;
+    margin-top: 30px;
+    font-family: Open Sans,Arial,sans-serif;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .6px;
+    line-height: 8px;
+}
+.estribillo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    color: yellow;
+    text-shadow: 2px 1px 1px black;
+}
+.alta-ratchet {
+    font-style: italic;
+}
+p {
+    margin-bottom: 0;
+}
+h1 {
+    color: yellow;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 2px 2px 1px black;
+}
+span {
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+h2 {
+    font-size: 55px;
+    margin: 0;
+    margin-bottom: 3px;
+    text-shadow: 1px 1px 1px yellow;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    text-decoration: underline 2px solid yellow;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+/* Footer */
+footer {
+    background-color: #c6a664;
+    width: 100%;
+    border-top: 2px solid yellow;
+}
+.footer-text {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text a img{
+    padding: 0;
+}
+.summerHack {
+    display: inline-block;
+    color: #337bbc;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-top: 0;
+    margin-right: 20px;
+}
